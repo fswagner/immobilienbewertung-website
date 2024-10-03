@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachverständiger Immobilienwertermittlung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sachverständiger für Immobilienwertermittlung</h1>
+        <p>Professionelle und unabhängige Immobilienbewertungen</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Über mich</a></li>
+            <li><a href="#services">Dienstleistungen</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>Über mich</h2>
+        <p>Als zertifizierter Sachverständiger für Immobilienwertermittlung mit über 15 Jahren Erfahrung biete ich verlässliche und fundierte Bewertungen für Wohn- und Gewerbeimmobilien.</p>
+        <ul>
+            <li>Zertifiziert nach XYZ</li>
+            <li>Langjährige Erfahrung in der Immobilienbranche</li>
+            <li>Bewertungen für Kauf, Verkauf, Erbschaft und Scheidungen</li>
+        </ul>
+    </section>
+
+    <section id="services">
+        <h2>Dienstleistungen</h2>
+        <ul>
+            <li><strong>Immobilienbewertung für Verkauf/Kauf:</strong> Marktkonforme Bewertung für einen reibungslosen Immobilienverkauf oder -kauf.</li>
+            <li><strong>Gutachten für Banken und Versicherungen:</strong> Detaillierte Gutachten zur Finanzierungs- und Versicherungsprüfung.</li>
+            <li><strong>Wertermittlungen für Erbschaft und Scheidung:</strong> Unabhängige und neutrale Bewertungen bei speziellen Anlässen.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Kontaktieren Sie mich für eine Beratung oder einen Termin.</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Nachricht:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Absenden</button>
+        </form>
+        <p>Telefon: +49 123 456 789</p>
+        <p>E-Mail: info@immobilienwertermittlung.de</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sachverständiger für Immobilienwertermittlung</p>
+    </footer>
+</body>
+</html>
