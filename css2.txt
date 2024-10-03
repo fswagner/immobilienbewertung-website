@@ -1,0 +1,67 @@
+/* Globales Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header mit dem Bild des Hauses und der Headline */
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.haus-bild {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #4CAF50; /* Grüne Farbe für die Headline */
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Hauptinhalt */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Einbettung des Leadgenerators (Rechner) */
+iframe {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

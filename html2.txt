@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachverständiger Immobilienwertermittlung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header mit der Bleistiftzeichnung des Hauses und der Headline -->
+    <header>
+        <div class="header-content">
+            <img src="images/haus-bleistift.png" alt="Haus in Bleistift-Optik" class="haus-bild">
+            <h1>Immobilien Wertermittlung</h1>
+            <p>Ermitteln Sie den aktuellen Wert Ihrer Immobilie mit unserem professionellen Rechner!</p>
+        </div>
+    </header>
+
+    <!-- Hauptinhalt mit eingebettetem Rechner für Immobilienbewertung -->
+    <main>
+        <section id="rechner">
+            <h2>Wertermittlung Ihrer Immobilie</h2>
+            <p>Nutzen Sie unseren kostenlosen Wertermittlungsrechner, bereitgestellt von unserem Partner.</p>
+
+            <!-- Der Leadgenerator-Rechner wird hier eingebettet -->
+            <iframe src="https://www.softwarefirma.de/rechner-immobilienbewertung" 
+                    width="100%" height="600px" frameborder="0">
+            </iframe>
+        </section>
+    </main>
+
+    <!-- Footer mit Kontaktinformationen -->
+    <footer>
+        <p>© 2024 Sachverständiger für Immobilienwertermittlung</p>
+        <p>Kontakt: info@immobilienbewertung.de | Telefon: +49 123 456 789</p>
+    </footer>
+
+</body>
+</html>
